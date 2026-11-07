@@ -1,0 +1,25 @@
+Source: Attempt 5 · initial Recovery snapshot
+2026-11-06T06:07:44-08:00
+=== USB ===
+Bus 001 Device 052: ID 2e8a:0009 Raspberry Pi Pico
+Bus 001 Device 054: ID 05ac:1281 Apple, Inc. Apple Mobile Device [Recovery Mode]
+=== IRECOVERY ===
+MODE: Recovery
+=== RECENT KERNEL MESSAGES ===
+
+Source: Attempt 5 · iBEC transfer snapshot
+2026-11-06T06:13:31-08:00
+=== RECOVERY AFTER IBEC TRANSFER ===
+MODE: Recovery
+=== USB DEVICE ===
+Bus 001 Device 052: ID 2e8a:0009 Raspberry Pi Pico
+Bus 001 Device 054: ID 05ac:1281 Apple, Inc. Apple Mobile Device [Recovery Mode]
+=== RECENT USB MESSAGES ===
+
+Source: Attempt 5 · execution snapshot
+2026-11-06T06:30:23-08:00
+=== USB ===
+Bus 001 Device 052: ID 2e8a:0009 Raspberry Pi Pico
+Bus 001 Device 054: ID 05ac:1281 Apple, Inc. Apple Mobile Device [Recovery Mode]
+=== SERIAL PORTS ===
+=== KERNEL MESSAGES ===

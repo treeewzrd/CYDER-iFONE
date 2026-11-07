@@ -1,0 +1,18 @@
+Source: cyder hardware
+**Step H: Diagnostic IMG4**
+
+Transfer reached 100%.
+
+**Step I: Boot**
+
+```bash
+sudo irecovery -c bootx
+```
+
+Command returned to terminal without an error message.
+
+**Observed iPhone behavior:**
+
+The iPhone displayed the Apple logo, not the expected white framebuffer.
+
+The user directly observed the Apple logo.

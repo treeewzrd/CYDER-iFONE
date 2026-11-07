@@ -1,0 +1,40 @@
+Source: cyder hardware
+### 4. Second Linux boot attempt
+
+The iPhone was placed into standard DFU:
+
+`05ac:1227`
+
+`irecovery -q` initially showed `MODE: DFU` without a `PWND` marker.
+
+An initial boot attempt failed with:
+
+`RuntimeError: this is not Pwned DFU device`
+
+The RP2350 was power-cycled without reflashing. USBLiter8 was reapplied.
+
+Verification:
+
+`irecovery -q`
+
+Returned:
+
+- `CPID: 0x8030`
+- `BDID: 0x04`
+- `PWND: usbliter8`
+- `MODE: DFU`
+
+The second boot was then initiated:
+
+`sudo -E ./cascadia a13 boot`
+
+Results:
+- Patched iBSS transferred successfully.
+- Recovery Mode entered.
+- Six payload transfers reached 100%.
+- `bootx submitted` reported.
+- Device remained enumerated as `05ac:1281`.
+- No usable Linux interface confirmed.
+
+USB kernel logs showed pwned DFU device disconnecting and reappearing in Recovery Mode. No subsequent iPhone USB re-enumeration was visible in the captured messages.
+

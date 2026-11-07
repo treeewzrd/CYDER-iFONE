@@ -1,0 +1,15 @@
+Source: cyder hardware
+### 3. First Linux boot attempt
+
+Executed:
+
+`sudo -E ./cascadia a13 boot`
+
+Results:
+- USBLiter8 pwned DFU confirmed.
+- Six boot payload transfers completed at 100%.
+- `bootx submitted` reported.
+- iPhone screen backlit but black.
+- No USB network interface or additional iPhone serial interface observed.
+- Ping to `172.16.42.1` failed.
+- Apple Recovery Mode (`05ac:1281`) observed.

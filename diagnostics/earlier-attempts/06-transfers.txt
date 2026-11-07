@@ -1,0 +1,14 @@
+Source: Attempt 6 · execution snapshot
+2026-11-06T06:40:29-08:00
+=== DEVICE TREE ===
+[==================================================] 100.0%
+=== TRUST CACHE ===
+[==================================================] 100.0%
+=== NEW UNSIGNED M1N1 ===
+[==================================================] 100.0%
+=== EXECUTION ===
+=== USB RESULT ===
+Bus 001 Device 052: ID 2e8a:0009 Raspberry Pi Pico
+Bus 001 Device 054: ID 05ac:1281 Apple, Inc. Apple Mobile Device [Recovery Mode]
+=== SERIAL ===
+=== KERNEL MESSAGES ===

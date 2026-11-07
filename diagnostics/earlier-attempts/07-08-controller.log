@@ -1,0 +1,4 @@
+[47364683] c1 info  TargetWorker.cpp:206 target opened: dfu
+[47365221] c1 info  TargetWorker.cpp:214 dfu exploit started
+[47365221] c1 info  USBLiter8.cpp:419 Entering 8030 exploit
+laikadbg: CDC debug stream failed: device reports readiness to read but returned no data (device disconnected or multiple access on port?)

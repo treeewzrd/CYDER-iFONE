@@ -1,0 +1,18 @@
+Source: cyder hardware
+10. Executed standalone proxy:
+
+    ```bash
+    sudo ./boot-from-recovery.sh proxy
+    ```
+
+11. Script reported:
+
+    ```text
+    bootx submitted
+    ```
+
+12. iPhone subsequently booted into normal iOS.
+
+**Result: Failed to establish m1n1 execution.**
+
+No m1n1 USB proxy interface was confirmed.

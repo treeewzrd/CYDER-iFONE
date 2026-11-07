@@ -1,0 +1,6 @@
+# Full host USB traces stay local. The report records the relevant frames.
+*.pcap
+*.pcapng
+
+# Original lab transcripts and pre-edit documentation backup.
+/working-notes/

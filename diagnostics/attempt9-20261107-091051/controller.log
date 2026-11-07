@@ -1,0 +1,6 @@
+[00359436] c1 info  TargetWorker.cpp:206 target opened: dfu
+[00531504] c1 info  TargetWorker.cpp:214 dfu exploit started
+[00531505] c1 info  USBLiter8.cpp:419 Entering 8030 exploit
+[00534572] c1 info  USBLiter8.cpp:587 8030 exploit complete
+[00534572] c1 info  TargetWorker.cpp:224 dfu exploit completed
+[00579780] c1 info  TargetWorker.cpp:206 target opened: pwned-dfu

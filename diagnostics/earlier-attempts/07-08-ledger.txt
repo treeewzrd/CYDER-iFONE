@@ -1,0 +1,4 @@
+Source: November 7 engineering ledger
+  A5. La1ka/l41ka -> PongoOS: ATTEMPTED. Reported `[runner] exploit`, timeout
+      waiting for device transition, `LIBUSB_ERROR_NO_DEVICE`. PongoOS NOT
+      reached. No recommendation to re-flash or rerun unchanged La1ka.
